@@ -142,14 +142,14 @@
                         ]
                     },
                     {
-                        "description": "command [ to ]",
+                        "description": "control [ to ]",
                         "manipulators": [
                             {
                                 "from": {
                                     "key_code": "open_bracket",
                                     "modifiers": {
                                         "mandatory": [
-                                            "command"
+                                            "control"
                                         ]
                                     }
                                 },
@@ -163,14 +163,14 @@
                         ]
                     },
                     {
-                        "description": "command shift [ to }",
+                        "description": "control shift [ to }",
                         "manipulators": [
                             {
                                 "from": {
                                     "key_code": "open_bracket",
                                     "modifiers": {
                                         "mandatory": [
-                                            "command",
+                                            "control",
                                             "shift"
                                         ]
                                     }
@@ -188,14 +188,14 @@
                         ]
                     },
                     {
-                        "description": "command escape to `",
+                        "description": "control escape to `",
                         "manipulators": [
                             {
                                 "from": {
                                     "key_code": "escape",
                                     "modifiers": {
                                         "mandatory": [
-                                            "command"
+                                            "control"
                                         ]
                                     }
                                 },
@@ -209,14 +209,14 @@
                         ]
                     },
                     {
-                        "description": "command shift escape to ~",
+                        "description": "control shift escape to ~",
                         "manipulators": [
                             {
                                 "from": {
                                     "key_code": "escape",
                                     "modifiers": {
                                         "mandatory": [
-                                            "command",
+                                            "control",
                                             "shift"
                                         ]
                                     }
@@ -234,14 +234,14 @@
                         ]
                     },
                     {
-                        "description": "command slash to backslash",
+                        "description": "control slash to backslash",
                         "manipulators": [
                             {
                                 "from": {
                                     "key_code": "slash",
                                     "modifiers": {
                                         "mandatory": [
-                                            "command"
+                                            "control"
                                         ]
                                     }
                                 },
@@ -255,14 +255,14 @@
                         ]
                     },
                     {
-                        "description": "command shift slash to |",
+                        "description": "ctrl shift slash to |",
                         "manipulators": [
                             {
                                 "from": {
                                     "key_code": "slash",
                                     "modifiers": {
                                         "mandatory": [
-                                            "command",
+                                            "control",
                                             "shift"
                                         ]
                                     }
@@ -273,6 +273,49 @@
                                         "modifiers": [
                                             "shift"
                                         ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "ctrl hyphen to =",
+                        "manipulators": [
+                            {
+                                "from": {
+                                  "key_code": "hyphen",
+                                  "modifiers": {
+                                      "mandatory": [
+                                          "control"
+                                      ]
+                                  }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "equal_sign"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "ctrl shift hyphen to +",
+                        "manipulators": [
+                            {
+                                "from": {
+                                  "key_code": "hyphen",
+                                  "modifiers": {
+                                      "mandatory": [
+                                          "control",
+                                          "shift"
+                                      ]
+                                  }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "keypad_plus"
                                     }
                                 ],
                                 "type": "basic"
